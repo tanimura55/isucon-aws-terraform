@@ -1,6 +1,11 @@
 .terraform/*
+.terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
+terraform.tfvars*
+
+isucon_id_rsa
+isucon_id_rsa.pub
 
 # custom variables file
 terraform.tfvars.json

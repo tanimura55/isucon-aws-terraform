@@ -1,5 +1,4 @@
-variable "standalone_ami_name" {}
-variable "standalone_ami_owner" {}
+variable "standalone_ami_image_id" {}
 variable "subnet_id" {}
 variable "security_group_id" {}
 variable "ec2_members" {}
